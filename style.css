@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-box {
+  border: 8px solid red;
+  width: 500px;
+  height: 160px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 1px purple;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  text-shadow: 2px 1px 2px purple;
+  font-style: italic;
+  text-transform: uppercase;
+  color: purple;
+}
+
+.main-1 {
+  margin-top: 10px;
+  border: 8px solid green;
+  padding-bottom: 90px;
+}
+
+.main-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-box1 {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  font-style: italic;
+  font-weight: 500;
+  padding: 10px;
+  width: 200px;
+  height: 260px;
+  border: 8px solid red;
+  border-radius: 8px;
+  background-color: white;
+  color: purple;
+  box-shadow: 10px 10px 2px purple;
+  text-shadow: 2px 1px 2px purple;
+  margin: 5px;
+}
+
+.main-box2 {
+  width: 200px;
+  height: 260px;
+  border: 8px solid red;
+  border-radius: 8px;
+  background-color: white;
+  color: purple;
+  box-shadow: 10px 10px 2px purple;
+  margin: 5px;
+}
+
+.main-second {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-box3 {
+  width: 230px;
+  height: 280px;
+  border: 8px solid red;
+  border-radius: 10px;
+  background-color: white;
+  text-shadow: 2px 1px 2px purple;
+  padding: 10px;
+  box-shadow: 10px 10px 5px purple;
+}
+
+.form-box {
+  width: 210px;
+  height: 285px;
+  border: 8px solid red;
+  border-radius: 10px;
+  background-color: white;
+  text-shadow: 2px 1px 2px purple;
+  box-shadow: 10px 10px 5px purple;
+}
+
+.form-box h3 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.button {
+  background-color: red;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 4px;
+}
+
+.footer {
+  width: 60%;
+  border: 8px solid blueviolet;
+  margin: 10px auto;
+  background-color: green;
+}
+.footer h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.my-store {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.my-store .fruit {
+  background-color: yellow;
+  padding: 0px 20px 20px 20px;
+  font-style: italic;
+  width: 380px;
+}
+
+.fruit h4 {
+  font-weight: bold;
+  font-weight: 400px;
+}
+
+.vegetable {
+  background-color: yellow;
+  width: 380px;
+  padding: 0px 20px 20px 20px;
+  font-style: italic;
+}
+
+.other-footer {
+  background-color: yellow;
+  font-style: italic;
+  margin: 20px 15px 50px 15px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.other-footer h4 {
+  padding-top: 30px;
+}
+
+.footer-fix {
+  background-color: green;
+  border: 8px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 500px;
+  height: 120px;
+  position: fixed;
+  left: 530px;
+  top: 540px;
+  z-index: 100;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px purple;
+} /*# sourceMappingURL=style.css.map */
